@@ -29,6 +29,7 @@ class App extends Component {
                 );
               }} />
             <Route path="/user/:id" component={UserDetailContainer} />
+            <Route path="/" component={ListOfUsersContainer} />
           </Switch>
         </div>
       </BrowserRouter>
